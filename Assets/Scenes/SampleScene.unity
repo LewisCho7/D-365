@@ -258,6 +258,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103845582}
   m_CullTransparentMesh: 1
+--- !u!1 &422778526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 422778528}
+  - component: {fileID: 422778527}
+  m_Layer: 0
+  m_Name: stoeooeory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &422778527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422778526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1f9a167c0820054b8f34373756a216b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: dd
+    sentences:
+    - "\uC544\uC544\uC544"
+    - "\uC774\uC774\uC774\uC774"
+    - "\uC624\uC624\uC624\uC624"
+    sprite: []
+--- !u!4 &422778528
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422778526}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1597.8444, y: 196.22552, z: -1.7057543}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,7 +436,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 802, y: -55}
+  m_AnchoredPosition: {x: 802, y: -80}
   m_SizeDelta: {x: 24, y: 21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &799586143
@@ -606,7 +657,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1354162770
 RectTransform:
   m_ObjectHideFlags: 0
@@ -657,7 +708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d5c8c909ac347a4ca522b5b000341a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  story: {fileID: 0}
+  story: {fileID: 422778526}
 --- !u!4 &1418945591
 Transform:
   m_ObjectHideFlags: 0
@@ -703,7 +754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc2cb7b43f034da42a5423c66e8768a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  story: {fileID: 0}
+  story: {fileID: 422778526}
   isDialogue: 0
   ChatBox: {fileID: 1354162769}
   ChatText: {fileID: 103845584}
@@ -735,6 +786,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tf_cursor: {fileID: 1792234526}
+--- !u!1 &1601018777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1601018778}
+  m_Layer: 5
+  m_Name: Choices
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1601018778
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601018777}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1950701250}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1792234525
 GameObject:
   m_ObjectHideFlags: 0
@@ -863,6 +949,7 @@ RectTransform:
   m_Children:
   - {fileID: 1354162770}
   - {fileID: 1792234526}
+  - {fileID: 1601018778}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -954,3 +1041,4 @@ SceneRoots:
   - {fileID: 959912801}
   - {fileID: 1418945591}
   - {fileID: 1471140965}
+  - {fileID: 422778528}
