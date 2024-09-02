@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class StoryManager : MonoBehaviour
 {
-    public GameObject story;
+    public GameObject[] story;
+    private GameObject currentday;
+    public List<GameObject> buttonDay;
+    int index;
 
     public Queue<string> sentences;
 
     private void Awake()
     {
+        index = 0;
         sentences = new Queue<string>();
+        currentday = story[index];
     }
 
     public void StartDialogue(Dialogue dialogue)
@@ -28,6 +33,7 @@ public class StoryManager : MonoBehaviour
         if (sentences.Count == 0)
         {
             EndDialogue();
+
             return;
         }
         string sentence = sentences.Dequeue();
@@ -38,7 +44,27 @@ public class StoryManager : MonoBehaviour
     private void EndDialogue()
     {
         GameManager.instance.closeDialog();
+        if (currentday.transform.childCount > 0)
+        {
+            foreach(GameObject button in buttonDay)
+            {
+                if (button.name.Equals(currentday.name)){
+                    button.SetActive(true);
+                }
+            }
+        }
+        else
+        {
+            index++;
+            currentday = story[index];
+        }
 
+    }
+    //transform.childCount > 0
+
+    public int buttonNum(int num)
+    {
+        return num;
     }
 
     private void Update()
@@ -59,7 +85,7 @@ public class StoryManager : MonoBehaviour
         {
             if (!GameManager.instance.isDialogue)
             {
-                story.GetComponent<DialogueTrigger>().TriggerDialogue();
+                currentday.GetComponent<DialogueTrigger>().TriggerDialogue();
             }
         }
     }
