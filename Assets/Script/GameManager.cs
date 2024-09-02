@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public GameObject story;
-
+    public bool isDialogue = false;
     private void Awake()
     {
         if (instance == null)
@@ -28,12 +28,14 @@ public class GameManager : MonoBehaviour
 
     public void showDialog(string dialogue)
     {
+        isDialogue = true;
         ChatBox.SetActive(true);
         ChatText.SetText(dialogue);
     }
 
     public void closeDialog()
     {
+        isDialogue = false;
         ChatBox.SetActive(false);
     }
     private void Update()
