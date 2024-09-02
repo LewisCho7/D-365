@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public GameObject story;
+    public bool gameOver;
+    public int gameOverNum = -1;
     public bool isDialogue = false;
     private void Awake()
     {
@@ -18,6 +20,7 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        gameOver = false;
     }
 
     [SerializeField]
@@ -55,4 +58,5 @@ public class GameManager : MonoBehaviour
         isDialogue = false;
 
     }
+
 }

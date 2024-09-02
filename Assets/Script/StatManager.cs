@@ -13,8 +13,11 @@ public class StatManager : MonoBehaviour
     public TextMeshProUGUI affectionLevelText;
     public TextMeshProUGUI trustLevelText;
 
-    private int affection = 0;
-    private int trust = 0;
+    private int affection = 10;
+    private int trust = 50;
+
+    private int trustLevel;
+    private int affectionLevel;
 
     void Start()
     {
@@ -25,12 +28,18 @@ public class StatManager : MonoBehaviour
         UpdateTrustLevel();
     }
 
-    public void ModifyStats(int affectionAdd, int trustAdd)
+    public void ModifyAffectionStats(int affectionAdd)
     {
         affection += affectionAdd;
-        trust += trustAdd;
         UpdateSliders();
         UpdateAffectionLevel();
+    }
+
+    public void ModifyTrustStats(int trustAdd)
+    {
+        trust += trustAdd;
+        UpdateSliders();
+        UpdateTrustLevel();
     }
     void UpdateSliders()
     {
@@ -39,14 +48,24 @@ public class StatManager : MonoBehaviour
     }
     void UpdateAffectionLevel()
     {
-        int level = CalculateLevels(affection);
-        affectionLevelText.text = "호감도 Lv " + level;
+        affectionLevel = CalculateLevels(affection);
+        affectionLevelText.text = "호감도 Lv " + affectionLevel;
     }
 
     void UpdateTrustLevel()
     {
-        int level = CalculateLevels(trust);
-        trustLevelText.text = "신뢰도 Lv " + level;
+        trustLevel = CalculateLevels(trust);
+        trustLevelText.text = "신뢰도 Lv " + trustLevel;
+    }
+
+    public int getTrustLevel()
+    {
+        return trustLevel;
+    }
+
+    public int getAffectionLevel()
+    {
+        return affectionLevel;
     }
 
     int CalculateLevels(int stat)
