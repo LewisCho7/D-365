@@ -79,6 +79,7 @@ public class StoryManager : MonoBehaviour
             if (GameManager.instance.isDialogue)
             {
                 DisplayNextSentence();
+                SoundManager.instance.ClickSound();
             }
         }
         if (Input.GetMouseButtonDown(0))
@@ -86,6 +87,7 @@ public class StoryManager : MonoBehaviour
             if (!GameManager.instance.isDialogue)
             {
                 currentday.GetComponent<DialogueTrigger>().TriggerDialogue();
+                SoundManager.instance.ClickSound();
             }
         }
     }
