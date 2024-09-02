@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class StoryManager : MonoBehaviour
 {
@@ -10,20 +12,25 @@ public class StoryManager : MonoBehaviour
     private GameObject buttonDay;
     public List<GameObject> buttonDayList;
     public GameObject[] background;
+    
     int index;
     int buttonIndex;
     bool buttonPressed;
     public Queue<string> sentences;
+    public Queue<Sprite> sprites;
+    public GameObject[] spriteObject;
     public StatManager statManager;
+    bool isStillDialogue;
 
     private void Awake()
     {
         index = 0;
         buttonIndex = 0;
         sentences = new Queue<string>();
+        sprites = new Queue<Sprite>();
         currentday = story[index];
         buttonPressed = false;
-        
+        isStillDialogue = false;
     }
 
     public void StartDialogue(Dialogue dialogue)
@@ -31,9 +38,14 @@ public class StoryManager : MonoBehaviour
 
         ChangeBackground();
         sentences.Clear();
+        sprites.Clear();
         foreach (string sentence in dialogue.sentences)
         {
             sentences.Enqueue(sentence);
+        }
+        foreach (Sprite sprite in dialogue.sprite) {
+            sprites.Enqueue(sprite);
+
         }
         DisplayNextSentence();
     }
@@ -127,18 +139,60 @@ public class StoryManager : MonoBehaviour
             return;
         }
         string sentence = sentences.Dequeue();
+        Sprite sprite = sprites.Dequeue();
         GameManager.instance.showDialog(sentence);
+        showSprite(sprite);
 
+    }
+    public void showSprite(Sprite sprite)
+    {
+        if (sprite == null)
+        {
+            spriteObject[0].SetActive(false);
+            spriteObject[1].SetActive(false);
+            spriteObject[2].SetActive(false);
+            spriteObject[3].SetActive(false);
+            return;
+        }
+        if (sprite.name.Equals("1") || sprite.name.Equals("2") || sprite.name.Equals("3") || sprite.name.Equals("4"))
+        {
+            spriteObject[0].SetActive(true);
+            spriteObject[1].SetActive(false);
+            spriteObject[2].SetActive(false);
+            spriteObject[3].SetActive(false);
+            spriteObject[0].GetComponent<Image>().sprite = sprite;
+        }
+        else if (sprite.name.Equals("5"))
+        {
+            spriteObject[0].SetActive(false);
+            spriteObject[1].SetActive(true);
+            spriteObject[2].SetActive(false);
+            spriteObject[3].SetActive(false);
+        }
+        else if (sprite.name.Equals("6"))
+        {
+            spriteObject[0].SetActive(false);
+            spriteObject[1].SetActive(false);
+            spriteObject[2].SetActive(true);
+            spriteObject[3].SetActive(false);
+        }
+        else if (sprite.name.Equals("7"))
+        {
+            spriteObject[0].SetActive(false);
+            spriteObject[1].SetActive(false);
+            spriteObject[2].SetActive(false);
+            spriteObject[3].SetActive(true);
+        }
     }
 
     private void EndDialogue()
     {
         GameManager.instance.closeDialog();
-
         if(index == 7 || index == 11 || index == 17)
         {
             checkStat();
             if (GameManager.instance.gameOver) {
+                showEnding();
                 return;
             }
         }
@@ -168,6 +222,10 @@ public class StoryManager : MonoBehaviour
     {
         buttonIndex = a;
         buttonPressed = true;
+        spriteObject[0].SetActive(false);
+        spriteObject[1].SetActive(false);
+        spriteObject[2].SetActive(false);
+        spriteObject[3].SetActive(false);
         buttonDay.SetActive(false);
         if(index == 21)
         {
@@ -225,15 +283,15 @@ public class StoryManager : MonoBehaviour
             if (GameManager.instance.isDialogue)
             {
                 DisplayNextSentence();
+
             }
-        }
-        if (Input.GetMouseButtonDown(0))
-        {
-            if (!GameManager.instance.isDialogue && !buttonPressed)
+
+            if (!GameManager.instance.isDialogue)
             {
                 currentday.GetComponent<DialogueTrigger>().TriggerDialogue();
             }
         }
+
     }
 
    private void checkStat()

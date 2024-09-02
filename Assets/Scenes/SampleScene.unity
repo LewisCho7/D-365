@@ -554,7 +554,9 @@ MonoBehaviour:
     - "\uC815\uC2E0\uCC28\uB9AC\uC790. \uC800\uB188\uC740 \uC6B0\uB9AC\uB098\uB77C\uC758
       \uC6D0\uC218\uB2E4."
     - "\uB9C8\uC74C\uC744 \uB2E4\uC7A1\uACE0 \uC554\uC0B4 \uC900\uBE44\uB97C \uB9C8\uBB34\uB9AC\uD55C\uB2E4. "
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 0}
 --- !u!1 &25965326
 GameObject:
   m_ObjectHideFlags: 0
@@ -608,7 +610,11 @@ MonoBehaviour:
     - "\uB3D9\uC9C0\uB294 \uAE30\uC05C \uB4EF \uBCF4\uC600\uC9C0\uB9CC \uADF8\uB0A0
       \uBCF8\uBD80\uC5D0\uC11C\uB294 \uC555\uBC15 \uC5F0\uB77D\uC774 \uC654\uB2E4. "
     - "\uB0B4 \uC785\uC9C0\uAC00 \uC881\uC544\uC9C4 \uB290\uB08C\uC774\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: af625ad334a47e7499904515e26864c9, type: 3}
+    - {fileID: 21300000, guid: af625ad334a47e7499904515e26864c9, type: 3}
+    - {fileID: 21300000, guid: af625ad334a47e7499904515e26864c9, type: 3}
 --- !u!1 &29867456
 GameObject:
   m_ObjectHideFlags: 0
@@ -2256,7 +2262,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: -5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2374,7 +2380,14 @@ MonoBehaviour:
     - "??: \uADF8\uB098\uB77C\uC758 \uBCF5\uC218\uB2E4!!!\r\n"
     - "\uB098:(\uC774\uB7F0, \uADF8\uB098\uB77C\uC5D0\uC11C \uC628 \uC554\uC0B4\uC790\uAD70.
       \uC5B4\uB5A1\uD558\uC9C0?)"
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: af625ad334a47e7499904515e26864c9, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 0}
 --- !u!1 &180963518
 GameObject:
   m_ObjectHideFlags: 0
@@ -2584,7 +2597,10 @@ MonoBehaviour:
     - "\uC218\uB839\uB3D9\uC9C0: \uC774 \uC0AC\uC9C4\uC774 \uBB50\uC774? \uB204\uAC00
       \uC774\uAC78 \uB123\uC740\uAC70\uC57C?\r\r"
     - "(\uC774\uB7F0...)"
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
 --- !u!1 &234189447
 GameObject:
   m_ObjectHideFlags: 0
@@ -2646,7 +2662,13 @@ MonoBehaviour:
       \uB54C\uBB38\uC77C\uAE4C,"
     - "\uC774\uB300\uB85C\uB77C\uBA74 \uC218\uB839\uC774 \uACE7 \uC4F0\uB7EC\uC9C8
       \uAC83\uB9CC \uAC19\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
 --- !u!1 &235245016
 GameObject:
   m_ObjectHideFlags: 0
@@ -2854,14 +2876,19 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - "\uC800\uBC88 \uC77C \uC774\uD6C4\uB85C \uC660\uC9C0 \uC5B4\uC0C9\uD574\uC84C\uB2E4."
+    - "\uC800\uBC88 \uC77C \uC774\uD6C4\uB85C \uC218\uB839\uACFC \uC660\uC9C0 \uC5B4\uC0C9\uD574\uC84C\uB2E4."
     - "\uC624\uB79C\uB9CC\uC5D0 \uD2F0\uB77C\uBBF8\uC218\uCF00\uC78C\uC744 \uC804\uB2EC\uD558\uB7EC
       \uAC00\uBCFC\uAE4C."
     - "(\uB611\uB611)"
     - "\uBD84\uBA85 \uBC29\uC5D0 \uC788\uC744\uD150\uB370 \uC544\uBB34\uB7F0 \uBC18\uC751\uC774
       \uC5C6\uB2E4. \uBB34\uC2A8 \uC77C\uC774 \uC788\uB098?"
     - "\uB4E4\uC5B4\uAC00\uBCF4\uB2C8 \uC218\uB839\uB3D9\uC9C0\uAC00  \uC7A0\uB4E4\uC5B4\uC788\uC5C8\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
 --- !u!1 &270578021
 GameObject:
   m_ObjectHideFlags: 0
@@ -3206,7 +3233,11 @@ MonoBehaviour:
       \uB4E0\uB2E4."
     - "\uC660\uC9C0 \uB0B4 \uC774\uB984\uC774 \uB4E4\uB838\uB358 \uAC83 \uAC19\uAE30\uB3C4
       \uD558\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
+    - {fileID: 0}
 --- !u!1 &340795995
 GameObject:
   m_ObjectHideFlags: 0
@@ -3556,9 +3587,18 @@ MonoBehaviour:
       \uC0C9\uC73C\uB85C \uBB3C\uB4E4\uC5C8\uB2E4.\r\n"
     - "\uB3D9\uBB34: \uB3C4, \uB3C5\uC774\uB2E4!\r\n"
     - "\uC218\uB839\uB3D9\uC9C0: \uC774 \uAC04\uB098...!!"
-    - "\uB098\uB294 \uC800\uD56D\uD560 \uC0C8\uB3C4 \uC5C6\uC774 \uB3D9\uBB34\uB4E4\uC5D0\uAC8C
-      \uD3EC\uC704\uB418\uC5B4 \uCC98\uD615\uB2F9\uD588\uB2E4.\r\n"
-    sprite: []
+    - "\uB098: \uC800\uB294 \uC815\uB9D0 \uACB0\uBC31\uD569\uB2C8\uB2E4..!!\r\n"
+    - "\uC218\uB839\uB3D9\uC9C0: \uC5B8\uC81C\uAE4C\uC9C0 \uBED4\uBED4\uD558\uAC8C
+      \uAC70\uC9D3\uB9D0 \uCE60 \uC218 \uC788\uB294\uC9C0 \uB0B4\uB798 \uC9C0\uCF1C\uBCF4\uAC14\uC5B4."
+    sprite:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: af625ad334a47e7499904515e26864c9, type: 3}
+    - {fileID: 21300000, guid: af625ad334a47e7499904515e26864c9, type: 3}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
 --- !u!1 &375532628
 GameObject:
   m_ObjectHideFlags: 0
@@ -3623,9 +3663,25 @@ MonoBehaviour:
     - "\uB098: \uC77C\uC5C6\uC2B5\uB124\uB2E4. \uC218\uB839\uB3D9\uC9C0\uC758 \uAC74\uAC15\uC774
       \uAC71\uC815\uB420 \uBFD0\uC774\uC5C8\uC2B5\uB124\uB2E4. "
     - "\uADF8\uB3D9\uC548 \uCF00\uD0A4\uB97C \uBABB\uB4DC\uB824 \uC8C4\uC1A1\uD569\uB124\uB2E4."
-    - "\uC218\uB839\uB3D9\uC9C0: \u2026 \uB3D9\uBB34.  \uCF00\uD0A4\uAC00 \uC5C6\uC5B4\uB3C4
-      \uAD1C\uCC2E\uC73C\uB2C8 \uC885\uC885 \uBC29\uBB38\uD558\uB77C\uC6B0."
-    sprite: []
+    - "\uC218\uB839\uB3D9\uC9C0: \u2026 \uB3D9\uBB34.  \uB098\uB294 \uCF00\uD0A4\uB97C
+      \uAE30\uB2E4\uB838\uB358\uAC8C \uC544\uB2C8\uC5C8\uB2E4\uC6B0."
+    - "\uB098: \u2026!"
+    - "\uC218\uB839\uB3D9\uC9C0: \uCF00\uD0A4\uAC00 \uC5C6\uC5B4\uB3C4 \uAD1C\uCC2E\uC73C\uB2C8
+      \uC885\uC885 \uBC29\uBB38\uD558\uB77C\uC6B0."
+    sprite:
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
 --- !u!1 &376973895
 GameObject:
   m_ObjectHideFlags: 0
@@ -3676,7 +3732,9 @@ MonoBehaviour:
     - "\uADF8\uB798\uB3C4 \uD568\uAED8\uD574\uC628 \uC138\uC6D4\uB54C\uBB38\uC778\uC9C0
       \uCE21\uC740\uD55C \uB9C8\uC74C\uC774 \uC0DD\uAE34\uB2E4. "
     - "\uB35C \uB0A0\uCE74\uB85C\uC6B4 \uB098\uC774\uD504\uB85C \uC900\uBE44 \uD560\uAE4C\u2026"
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 0}
 --- !u!1 &391609217
 GameObject:
   m_ObjectHideFlags: 0
@@ -3968,7 +4026,10 @@ MonoBehaviour:
     - "\uB098: \uC218\uB839\uB3D9\uC9C0, \uC190\uC744 \uB179\uC774\uC2ED\uC2DC\uC624"
     - "\uC218\uB839\uB3D9\uC9C0: \uACE0\uB9D9\uB124. "
     - "\uC57C\uC678 \uC5F0\uC124\uC774 \uBB34\uC0AC\uD788 \uB9C8\uBB34\uB9AC\uB418\uC5C8\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: af625ad334a47e7499904515e26864c9, type: 3}
+    - {fileID: 21300000, guid: af625ad334a47e7499904515e26864c9, type: 3}
 --- !u!1 &405570066
 GameObject:
   m_ObjectHideFlags: 0
@@ -4018,7 +4079,9 @@ MonoBehaviour:
     sentences:
     - "(\uCC0C\uB77C\uC2DC \uC815\uB3C4\uB294\u2026)\r\n\r\n"
     - "\uC218\uB839\uB3D9\uC9C0: \uD760\u2026\r"
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
 --- !u!1 &417458561
 GameObject:
   m_ObjectHideFlags: 0
@@ -4073,7 +4136,11 @@ MonoBehaviour:
       \uC774\uB098\uB77C \uAD70\uC778\uB4E4\uC5D0\uAC8C \uCC98\uD615\uB2F9\uD588\uB2E4. "
     - "\uC6B0\uB9AC\uB098\uB77C\uB294 \uC774\uB098\uB77C\uC640 \uD1B5\uC77C\uC5D0
       \uC131\uACF5\uD588\uB2E4. "
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
+    - {fileID: 21300000, guid: 708a20ccddf45f844aa413097455fdee, type: 3}
+    - {fileID: 21300000, guid: 708a20ccddf45f844aa413097455fdee, type: 3}
 --- !u!1 &419273073
 GameObject:
   m_ObjectHideFlags: 0
@@ -4124,7 +4191,9 @@ MonoBehaviour:
     - "(\uADF8\uB798\uB3C4 \uC758\uC2EC\uC744 \uC0AC\uAE34 \uC2EB\uC73C\uB2C8 \uC624\uBB3C\uC744
       \uAC00\uB4DD \uB2F4\uC790.)"
     - "\uC218\uB839\uB3D9\uC9C0: \uC798\uD558\uACE0 \uC788\uAD6C\uB9CC \uAE30\uB798."
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: af625ad334a47e7499904515e26864c9, type: 3}
 --- !u!1 &442477454
 GameObject:
   m_ObjectHideFlags: 0
@@ -4408,7 +4477,10 @@ MonoBehaviour:
       \uC57D\uC810\uC744 \uD655\uBCF4\uD574\uC57C\uACA0\uC5B4."
     - "\uC218\uB839\uB3D9\uC9C0: \uC73C\uC74C\u2026"
     - "\uC218\uB839\uB3D9\uC9C0: [\uC774\uB984] \uB3D9\uBB34\u2026 "
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
 --- !u!1 &487121632
 GameObject:
   m_ObjectHideFlags: 0
@@ -4466,7 +4538,11 @@ MonoBehaviour:
     - "\uB098\uB3C4 \uC554\uC0B4 \uACC4\uD68D\uC744 \uC774\uC81C \uB9C8\uBB34\uB9AC
       \uC9C0\uC5B4\uC57C\uD560 \uAC83 \uAC19\uB2E4."
     - "\uC774 \uBD84\uC704\uAE30\uC5D0\uB294 \uC704\uD5D8\uD55C\uB370\u2026"
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: a9b792f641c9c6c49baaf9a5a0df1ef0, type: 3}
+    - {fileID: 21300000, guid: a9b792f641c9c6c49baaf9a5a0df1ef0, type: 3}
+    - {fileID: 21300000, guid: a9b792f641c9c6c49baaf9a5a0df1ef0, type: 3}
+    - {fileID: 21300000, guid: a9b792f641c9c6c49baaf9a5a0df1ef0, type: 3}
 --- !u!1 &495526841
 GameObject:
   m_ObjectHideFlags: 0
@@ -4606,7 +4682,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 10
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4989,7 +5065,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 10
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5523,7 +5599,11 @@ MonoBehaviour:
     - "\uC6B0\uB9AC\uB098\uB77C \uBCF8\uBD80 \uB300\uC7A5: [\uC774\uB984], \uC790\uB124\uB97C
       \uACFC\uB300\uD3C9\uAC00 \uD588\uB098\uBCF4\uAD70."
     - "\uB098: (\u2026)"
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
 --- !u!1 &582368575
 GameObject:
   m_ObjectHideFlags: 0
@@ -5866,7 +5946,9 @@ MonoBehaviour:
     - "(\uB0B4 \uBCF8\uBD84\uC744 \uC78A\uC9C0\uB9D0\uC790. \uB4E4\uD0A4\uC9C0 \uC54A\uAC8C
       \uC870\uC2EC\uD558\uBA74 \uB418\uB294\uAC70\uC57C\u2026)\r\n\r\n"
     - "\uC218\uB839\uB3D9\uC9C0: (\u2026)"
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
 --- !u!1 &613244050
 GameObject:
   m_ObjectHideFlags: 0
@@ -5920,7 +6002,12 @@ MonoBehaviour:
     - "\uC218\uB839\uB3D9\uC9C0: \uC54C\uAC04. \uADF8\uB9CC \uAC00\uBCF4\uB77C\uC6B0."
     - "\uC8FC\uC778\uACF5: \u2026."
     - "\uC801\uB9C9\uD55C \uBC29\uC548\uC744 \uBE60\uC838\uB098\uC654\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 0}
 --- !u!1 &628324267
 GameObject:
   m_ObjectHideFlags: 0
@@ -5975,7 +6062,12 @@ MonoBehaviour:
     - "\uC218\uB839\uB3D9\uC9C0\uC758 \uC758\uC2EC\uC744 \uC5C6\uC560\uAE30 \uC704\uD55C
       \uB178\uB825\uC758 \uC9C0\uB09C\uB0A0\uC774 \uC2A4\uCCD0\uC9C0\uB098\uAC04\uB2E4."
     - "\uC88B\uC558\uB358 \uAE30\uC5B5\uB3C4 \uB5A0\uC624\uB978\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
 --- !u!1 &634478182
 GameObject:
   m_ObjectHideFlags: 0
@@ -6412,10 +6504,9 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - "\uB3D9\uC9C0: \uC790\uB124\uAC00 \uC0C8 \uAC04\uBD80\uC778\uAC00? \uC774\uB984\uC774
-      \uBB50\uC9C0?"
-    - "\uB098: [\uC785\uB825] \uC785\uB2C8\uB2E4. \uC704\uB300\uD55C \uC218\uB839\uB3D9\uC9C0\uC640
-      \uD568\uAED8 \uC77C\uD560 \uC218 \uC788\uC5B4 \uC601\uAD11\uC785\uB2C8\uB2E4. "
+    - "\uB3D9\uC9C0: \uC790\uB124\uAC00 \uC0C8 \uAC04\uBD80\uC778\uAC00?"
+    - "\uB098: \uC704\uB300\uD55C \uC218\uB839\uB3D9\uC9C0\uC640 \uD568\uAED8 \uC77C\uD560
+      \uC218 \uC788\uC5B4 \uC601\uAD11\uC785\uB2C8\uB2E4. "
     - "\uB3D9\uC9C0: \uC2E4\uB9DD\uC2DC\uD0A4\uC9C0 \uB9D0\uB77C\uC6B0. \uD574\uC57C
       \uD560 \uC77C\uC740 \uC54C\uACE0 \uC788\uB098?"
     - "\uB098: \uC218\uB839 \uB3D9\uC9C0\uC758 \uAC70\uB8E9\uD55C \uB73B\uC744 \uBCF4\uC88C\uD558\uACE0 "
@@ -6440,13 +6531,20 @@ MonoBehaviour:
     - "\uD638\uAC10\uB3C4\uC640 \uC2E0\uB8B0\uB3C4\uAC00 \uB5A8\uC5B4\uC9C0\uC9C0
       \uC54A\uAC8C \uCD5C\uC120\uC744 \uB2E4\uD558\uC790!"
     sprite:
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
     - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
+    - {fileID: 21300000, guid: a9b792f641c9c6c49baaf9a5a0df1ef0, type: 3}
+    - {fileID: 21300000, guid: a9b792f641c9c6c49baaf9a5a0df1ef0, type: 3}
     - {fileID: 0}
     - {fileID: 0}
 --- !u!1 &662541833
@@ -6828,7 +6926,10 @@ MonoBehaviour:
       \uC790\uACB0\uD560\uAC81\uB124\uB2E4! "
     - "\uC218\uB839\uB3D9\uC9C0: \uC790\uB124 \uC9C0\uAE08 \uC7A5\uB09C\uD558\uB098?"
     - "\uC720\uB09C\uD788 \uB530\uAC00\uC6B4 \uC5EC\uB984\uC774\uC5C8\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
 --- !u!1 &730441019
 GameObject:
   m_ObjectHideFlags: 0
@@ -6886,7 +6987,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "2. \uC790\uB9AC\uB97C \uBE44\uCF1C\uC900\uB2E4."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 35fa1f8781a523d42a23775030ef9a2d, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7055,7 +7156,12 @@ MonoBehaviour:
     - "(\uCEE4\uD53C\uAC00\uB8E8 \uBB3B\uC740 \uCF00\uD0A4\u2026? \uC544\uB9C8 \uD2F0\uB77C\uBBF8\uC218\uCF00\uC78C\uC778\uAC00\uBCF4\uAD70.)\n"
     - "(\uADF8\uB098\uC800\uB098 \uC774\uC81C \uC2AC\uC2AC \uBB34\uC5B8\uAC08 \uD574\uC57C\uD560
       \uAC83 \uAC19\uC740\uB370\u2026)"
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
 --- !u!1 &746129725
 GameObject:
   m_ObjectHideFlags: 0
@@ -7260,19 +7366,27 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - "\uC218\uB839 \uB3D9\uC9C0: \u2026\uB098\uAC00\uC11C \uC804\uD654 \uC880 \uBC1B\uACE0
-      \uC624\uACA0\uB124.\r\n"
-    - "(\uBB34\uC2A8 \uC804\uD654\uC77C\uC9C0 \uAD81\uAE08\uD558\uB2E4. \uADF8\uB7EC\uB098
-      \uAC10\uD788 \uBB3C\uC744 \uC218\uB294 \uC5C6\uB2E4.)\r\n\r"
-    - "1\uB144 \uB4A4-\r\n"
-    - "1\uB144\uC774 \uC9C0\uB0AC\uC9C0\uB9CC \uAC71\uC815\uACFC \uB2EC\uB9AC \uC774\uACF3\uC740
-      \uD3C9\uD654\uB86D\uAE30\uB9CC \uD558\uB2E4.\r\n"
-    - "\uB3D9\uBB34: \uB3D9\uBB34! \uC5B4\uC11C \uC900\uBE44\uD558\uB77C\uC6B0!\r\n"
-    - "\uB098: \uBB34\uC2A8 \uC77C\uC785\uB124\uAE4C?\r\n\r"
-    - "\uB3D9\uBB34: \uC624\uB298\uC774 \uC801\uAD6D\uC5D0 \uD575\uC744 \uB0A0\uB9AC\uB294
-      \uB0A0\uC774\uC796\uB098! \uC5B4\uC11C \uC900\uBE44\uD558\uB77C\uC6B0!\r\n"
-    - "\uB098: ??? \uC774\uB7F0!!"
-    sprite: []
+    - "\uB098: \uBC14\uC058\uC2E0 \uAC83 \uAC19\uC73C\uB2C8 \uC774\uB9CC \uAC00\uBCF4\uACA0\uC2B5\uB2C8\uB2E4.
+      \r\n"
+    - "\uC218\uB839\uB3D9\uC9C0: \uD2F0\uB77C\uBBF8\uC218 \uCF00\uC78C\u2026 \uC218\uB839\uC774\uB77C
+      \uBBF8\uC219\uD574\u2026\r"
+    - "\uBB38 \uBC16\uC5D0\uC11C \uB3C4\uCCAD\uD55C \uACB0\uACFC \uD575\uACFC \uAD00\uB828\uB41C
+      \uC774\uC57C\uAE30\uC778\uB4EF \uD588\uB2E4.\n"
+    - "\uB098\uB294 \uBC29\uC73C\uB85C \uB3CC\uC544\uC640 \uC774 \uC18C\uC2DD\uC744
+      \uBCF8\uBD80\uC5D0 \uC54C\uB838\uB2E4.\r\n"
+    - "\uBCF8\uBD80: \uBAA9\uD45C\uB97C \uBCC0\uACBD\uD55C\uB2E4. \uC218\uB839 \uB3D9\uC9C0\uB97C
+      \uC554\uC0B4\uD558\uB77C.\r\n\r"
+    - "\uC8FC\uC778\uACF5:  \u2026\uC54C\uACA0\uC2B5\uB2C8\uB2E4.\r\n\r\n"
+    - "\uC8FC\uC778\uACF5: (\uB2F9\uC5F0\uD55C \uC77C\uC774\uB2E4. \uADF8\uB7F0\uB370
+      \uC774 \uAE30\uBD84\uC740 \uBB58\uAE4C?)"
+    sprite:
+    - {fileID: 0}
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
 --- !u!1 &778897625
 GameObject:
   m_ObjectHideFlags: 0
@@ -7323,8 +7437,11 @@ MonoBehaviour:
     - "\uBCF8\uBD80: \uC790\uB124 \uB355\uBD84\uC5D0 \uC591\uAD6D\uC758 \uD569\uC77C\uC774
       \uC774\uB8E8\uC5B4\uC84C\uB124! "
     - "\uC774\uAC74 \uC815\uB9D0 \uB300\uB2E8\uD55C \uC5C5\uC801\uC774\uC57C!"
-    - "[]\uB294 \uD1B5\uC77C\uAD6D\uC758 \uB300\uD1B5\uB839\uC774 \uB41C\uB2E4."
-    sprite: []
+    - "\uB098\uB294 \uD1B5\uC77C\uAD6D\uC758 \uB300\uD1B5\uB839\uC774 \uB41C\uB2E4."
+    sprite:
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
 --- !u!1 &781858602
 GameObject:
   m_ObjectHideFlags: 0
@@ -7382,7 +7499,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "2. \uC544\uBB34 \uB9D0 \uC5C6\uC774 \uD68C\uC758\uC5D0 \uCC38\uC5EC\uD55C\uB2E4."
+  m_text: "2. \uAC11\uC790\uAE30 \uBC30\uAC00 \uC544\uD504\uB2E4\uACE0 \uC2DC\uC120\uC744
+    \uB04C\uC5B4 \uD68C\uC758\uB97C \uC911\uB2E8\uC2DC\uD0A8\uB2E4."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 35fa1f8781a523d42a23775030ef9a2d, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7507,7 +7625,8 @@ MonoBehaviour:
     name: 
     sentences:
     - "\uC5EC\uB984\uC774 \uB418\uC5C8\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 0}
 --- !u!1 &799586141
 GameObject:
   m_ObjectHideFlags: 0
@@ -7732,10 +7851,12 @@ MonoBehaviour:
       \uCD5C\uC6B0\uC120\uC774\uC57C.)\r"
     - "\uC218\uB839\uB3D9\uC9C0: \uC774\uB807\uAC8C \uCC3E\uC544\uC628\uB2E4\uACE0
       \uB0B4\uAC00 \uD3B8\uC560\uB97C \uD574\uC904 \uC904 \uC544\uB098? "
-    - "\uC218\uB839\uB3D9\uC9C0: \uC774\uB807\uAC8C \uCC3E\uC544\uC628\uB2E4\uACE0
-      \uB0B4\uAC00 \uD3B8\uC560\uB97C \uD574\uC904 \uC904 \uC544\uB098? \n\uD750..\uD765!
-      \uC544\uAE4C\uC6CC\uC11C \uBA39\uB294\uAE30\uB77C\uC6B0, \uCC29\uAC01\uB9D0\uB77C!"
-    sprite: []
+    - "\uC218\uB839\uB3D9\uC9C0: \uD750..\uD765! \uC544\uAE4C\uC6CC\uC11C \uBA39\uB294\uAE30\uB77C\uC6B0,
+      \uCC29\uAC01\uB9D0\uB77C!"
+    sprite:
+    - {fileID: 0}
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
 --- !u!1 &873894730
 GameObject:
   m_ObjectHideFlags: 0
@@ -8390,7 +8511,11 @@ MonoBehaviour:
     - "\uB54C\uAC00 \uB418\uC5C8\uB098\u2026 \uD558\uC9C0\uB9CC \uC900\uBE44\uB41C
       \uAC83\uC774 \uC5C6\uB2E4. "
     - "\uC544\uC9C1 \uC815\uBCF4\uB3C4 \uBD80\uC871\uD55C\uB370.."
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
 --- !u!1 &951482662
 GameObject:
   m_ObjectHideFlags: 0
@@ -8441,7 +8566,9 @@ MonoBehaviour:
     - "\uBD04\uC774 \uB418\uC5C8\uB2E4. "
     - "\uBD04\uC774 \uB418\uC5C8\uB2E4. \uBCF8\uACA9\uC801\uC73C\uB85C \uC218\uB839\uB3D9\uC9C0\uC640
       \uAD6D\uC815\uC6D0\uC758 \uC2E0\uC784\uC744 \uC313\uC544\uC57C\uACA0\uB2E4. "
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 0}
 --- !u!1 &955349283
 GameObject:
   m_ObjectHideFlags: 0
@@ -8500,7 +8627,13 @@ MonoBehaviour:
       \uBB50\uC9C0..?"
     - "\uB098\uB294 \uC6B0\uB9AC\uB098\uB77C\uB85C \uBB34\uC0AC\uD788 \uB3CC\uC544\uC640
       \uC870\uC6A9\uD788 \uC0B6\uC744 \uBCF4\uB0B8\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: af625ad334a47e7499904515e26864c9, type: 3}
+    - {fileID: 21300000, guid: 708a20ccddf45f844aa413097455fdee, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
 --- !u!1 &959912798
 GameObject:
   m_ObjectHideFlags: 0
@@ -8633,9 +8766,9 @@ MonoBehaviour:
     - ....
     - "\uC774\uB7F4 \uC218\uAC00. \uC218\uB839 \uB3D9\uC9C0\uB294 \uBAA8\uB4E0 \uAC83\uC744
       \uC54C\uACE0 \uC788\uC5C8\uB2E4. \uADF8\uB7FC\uC5D0\uB3C4 \uB0A0\u2026"
-    - "\uC218\uB839 \uB3D9\uC9C0: \uC790\uB124\uB294 \uB0A0 \uC554\uC0B4\uD560 \uAE30\uD68C\uAC00
-      \uC5BC\uB9C8\uB4E0\uC9C0 \uC788\uC5C8\uB294\uB370\uB3C4 \uD558\uC9C0 \uC54A\uC558\uC5B4.  "
-    - "\uB0B4\uB798 \uAC10\uB3D9\uD588\uB514."
+    - "\uC218\uB839 \uB3D9\uC9C0: \uB0A0 \uC554\uC0B4\uD560 \uAE30\uD68C\uAC00 \uC5BC\uB9C8\uB4E0\uC9C0
+      \uC788\uC5C8\uB294\uB370\uB3C4..."
+    - "\uC218\uB839 \uB3D9\uC9C0: \uB0B4\uB798 \uAC10\uB3D9\uD588\uB514."
     - "\uB098: \uC218\uB839 \uB3D9\uC9C0!"
     - "\uC218\uB839 \uB3D9\uC9C0: \uB354 \uC774\uC0C1 \uB098\uC640 \uC790\uB124 \uC0AC\uC774\uC5D0
       \uC120 \uAC19\uC740 \uAC8C \uC5C6\uC5C8\uC73C\uBA74 \uD574."
@@ -8643,7 +8776,26 @@ MonoBehaviour:
       \uBC84\uB9AC\uACE0, "
     - "\uC6B0\uB9AC\uB098\uB77C\uC640\uC758 \uD1B5\uC77C\uC5D0 \uC801\uADF9\uC801\uC73C\uB85C
       \uB098\uC130\uB2E4. "
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: af625ad334a47e7499904515e26864c9, type: 3}
+    - {fileID: 21300000, guid: af625ad334a47e7499904515e26864c9, type: 3}
+    - {fileID: 21300000, guid: af625ad334a47e7499904515e26864c9, type: 3}
+    - {fileID: 21300000, guid: af625ad334a47e7499904515e26864c9, type: 3}
+    - {fileID: 21300000, guid: af625ad334a47e7499904515e26864c9, type: 3}
+    - {fileID: 21300000, guid: af625ad334a47e7499904515e26864c9, type: 3}
 --- !u!1 &977759168
 GameObject:
   m_ObjectHideFlags: 0
@@ -8748,7 +8900,11 @@ MonoBehaviour:
     - "\uC218\uB839\uB3D9\uC9C0: \uC73C\uC74C\u2026"
     - "\uAE68\uAE30 \uC804\uC5D0 \uB098\uAC00\uC790."
     - "\uCF00\uC78C\uC744 \uB454 \uCC44\uB85C \uBE60\uC838\uB098\uC654\uB2E4. "
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
 --- !u!1 &995982553
 GameObject:
   m_ObjectHideFlags: 0
@@ -9222,8 +9378,10 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - "\uBC18\uB3D9"
-    sprite: []
+    - "\uD638\uAC10\uB3C4\uB97C \uCDA9\uBD84\uD788 \uC313\uC9C0 \uBABB\uD574 \uC218\uB839\uB3D9\uC9C0\uC5D0\uAC8C
+      \uCD1D\uC0B4\uB2F9\uD588\uB2E4."
+    sprite:
+    - {fileID: 21300000, guid: 708a20ccddf45f844aa413097455fdee, type: 3}
 --- !u!1 &1051807654
 GameObject:
   m_ObjectHideFlags: 0
@@ -9774,7 +9932,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9882,7 +10040,11 @@ MonoBehaviour:
       \uC218\uB3C4 \uC788\uC5B4. \uAC00\uB9CC\uD788 \uC788\uC790"
     - "\uC218\uB839\uB3D9\uC9C0: (\u2026) "
     - "\uBB34\uC0AC\uD788 \uD68C\uC758\uAC00 \uB9C8\uBB34\uB9AC \uB418\uC5C8\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
 --- !u!1 &1073530229
 GameObject:
   m_ObjectHideFlags: 0
@@ -9938,7 +10100,11 @@ MonoBehaviour:
     - "\uB9C8\uCE68 \uC5F4\uB9B0 \uBB38\uC73C\uB85C \uC218\uB839\uC758 \uBAA8\uC2B5\uC774
       \uBCF4\uC778\uB2E4. "
     - "\uC5B4\uCA50\uC9C0 \uC800 \uBAB8\uB6B1\uC544\uB9AC\uAC00 \uC548\uC4F0\uB7EC\uC6CC\uBCF4\uC778\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
 --- !u!1 &1078998549
 GameObject:
   m_ObjectHideFlags: 0
@@ -10339,7 +10505,8 @@ MonoBehaviour:
     name: 
     sentences:
     - "\uC774\uACF3\uC5D0 \uB300\uD55C \uC815\uBCF4\uB97C \uCC3E\uC544\uBCF4\uC790."
-    sprite: []
+    sprite:
+    - {fileID: 0}
 --- !u!1 &1132971403
 GameObject:
   m_ObjectHideFlags: 0
@@ -10634,7 +10801,11 @@ MonoBehaviour:
     - "\uC218\uB839\uB3D9\uC9C0: \u2026."
     - "\uC218\uB839\uB3D9\uC9C0\uB294 \uD0D0\uD0C1\uC9C0 \uC54A\uC740 \uAC83\uCC98\uB7FC
       \uBCF4\uC600\uC9C0\uB9CC \uCCA0\uD68C\uD588\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
 --- !u!1 &1158979093
 GameObject:
   m_ObjectHideFlags: 0
@@ -10687,7 +10858,10 @@ MonoBehaviour:
     - "\uC218\uB839\uB3D9\uC9C0: \uAE30\uB798, \uC774\uAC70\uB77C\uC6B0!\r"
     - "\uADF8\uB0A0 \uBCF8\uBD80\uC5D0\uC120 \uCC45\uC784\uC744 \uBB3B\uB294 \uC5F0\uB77D\uC774
       \uC654\uB2E4.\r"
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: af625ad334a47e7499904515e26864c9, type: 3}
+    - {fileID: 21300000, guid: af625ad334a47e7499904515e26864c9, type: 3}
+    - {fileID: 0}
 --- !u!1 &1160938516
 GameObject:
   m_ObjectHideFlags: 0
@@ -11178,7 +11352,10 @@ MonoBehaviour:
       \uBABB\uD588\uB2E4."
     - "\uC6B0\uB9AC\uB098\uB77C\uC5D0\uC11C \uB0B4 \uC815\uBCF4\uB97C \uAE30\uB2E4\uB9AC\uACE0
       \uC788\uC744\uD150\uB370\u2026"
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
 --- !u!1 &1239102000
 GameObject:
   m_ObjectHideFlags: 0
@@ -11471,7 +11648,10 @@ MonoBehaviour:
     - "\uC790\uC7A5\uAC00\uB97C \uBD80\uB978\uB2E4."
     - "\uC218\uB839\uB3D9\uC9C0\uB294 \uAE08\uC138 \uC7A0\uC5D0 \uBE60\uC9C4 \uB4EF
       \uD558\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
+    - {fileID: 0}
 --- !u!1 &1273505644
 GameObject:
   m_ObjectHideFlags: 0
@@ -11657,7 +11837,10 @@ MonoBehaviour:
     - "\uC218\uB839\uB3D9\uC9C0: \u2026."
     - "\uC218\uB839\uB3D9\uC9C0\uB294 \uC870\uC6A9\uD788 \uBB38\uC744 \uB2EB\uACE0
       \uC0AC\uB77C\uC84C\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
 --- !u!1 &1276266358
 GameObject:
   m_ObjectHideFlags: 0
@@ -12157,7 +12340,12 @@ MonoBehaviour:
     - "\uC544\uB294 \uC5BC\uAD74\uC774\uB2E4. "
     - "\uC6B0\uB9AC\uB098\uB77C\uC5D0\uC11C \uC628 \uAC04\uCCA9 \uB3D9\uB8CC\uAC00
       \uC815\uCCB4\uB97C \uBC1C\uAC01\uB2F9\uD55C \uBAA8\uC591\uC774\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
 --- !u!1 &1313141318
 GameObject:
   m_ObjectHideFlags: 0
@@ -12612,7 +12800,10 @@ MonoBehaviour:
     - "\uC218\uB839\uB3D9\uC9C0: \uADF8\uB798.. \uD06C\uD760.. \uC774\uB9CC \uAC00\uBCF4\uB77C\uC6B0."
     - "\uAE34\uC7A5\uD588\uB098, \uB450\uADFC\uAC70\uB9AC\uB294 \uC2EC\uC7A5\uC73C\uB85C
       \uC5B4\uC11C \uBE60\uC838\uB098\uC654\uB2E4. "
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
 --- !u!1 &1387533689
 GameObject:
   m_ObjectHideFlags: 0
@@ -12668,7 +12859,10 @@ MonoBehaviour:
       \uD6E8\uC52C \uB9E4\uC12D\uAD70\u2026"
     - "\uC775\uC219\uD574\uC9C0\uC9C0 \uC54A\uB294\uB2E4. \uC218\uB839\uB3D9\uC9C0\uC758
       \uADC0\uAC00 \uBE68\uAC1B\uAC8C \uC5BC\uC5C8\uB2E4. "
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
 --- !u!1 &1410632792
 GameObject:
   m_ObjectHideFlags: 0
@@ -12851,7 +13045,8 @@ MonoBehaviour:
     name: 
     sentences:
     - "\uC218\uB839\uC758 \uC5BC\uAD74\uC774 \uC810\uCC28 \uC2DC\uC6D0\uD574 \uBCF4\uC778\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: af625ad334a47e7499904515e26864c9, type: 3}
 --- !u!1 &1418945589
 GameObject:
   m_ObjectHideFlags: 0
@@ -12886,6 +13081,7 @@ MonoBehaviour:
   - {fileID: 738749396}
   - {fileID: 951482662}
   - {fileID: 1571865704}
+  - {fileID: 179811734}
   - {fileID: 1183241973}
   - {fileID: 1910393329}
   - {fileID: 790607760}
@@ -13002,10 +13198,19 @@ MonoBehaviour:
     - "\uB098: \uBC30, \uBC30\uAC00.. \uB054\uCC0D\uD558\uAC8C \uC544\uD515\uB2C8\uB2E4!!
       \uC7A0\uAE50 \uBA48\uCDB0\uC8FC\uC2DC\uC624!!!"
     - "\uC218\uB839\uB3D9\uC9C0: \uAE30\uB798 \uC5B4\uC11C \uC758\uC6D0\uC5D0 \uAC00\uBCF4\uB77C. "
-    - "\uC624\uB298 \uD68C\uC758\uB294 \uC5B4\uCA54 \uC218 \uC5C6\uACA0\uAD6C\uB9CC. "
-    - "\uD55C\uBA85\uC774\uB77C\uB3C4 \uBE60\uC9C8 \uC21C \uC5C6\uC73C\uB2C8 \uB9D0\uC774\uC624. "
+    - "\uC218\uB839\uB3D9\uC9C0: \uC624\uB298 \uD68C\uC758\uB294 \uC5B4\uCA54 \uC218
+      \uC5C6\uACA0\uAD6C\uB9CC. "
+    - "\uC218\uB839\uB3D9\uC9C0: \uD55C\uBA85\uC774\uB77C\uB3C4 \uBE60\uC9C8 \uC21C
+      \uC5C6\uC73C\uB2C8 \uB9D0\uC774\uC624. "
     - "\uD68C\uC758\uB294 \uAE09\uD788 \uC911\uB2E8\uB418\uC5C8\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 0}
 --- !u!1 &1450249066
 GameObject:
   m_ObjectHideFlags: 0
@@ -13060,7 +13265,11 @@ MonoBehaviour:
     - "\uC218\uB839\uB3D9\uC9C0: \uB9DB\uC788\uAD6C\uB9CC \uAE30\uB798\u2026"
     - "\uC218\uB839\uB3D9\uC9C0\uB294 \uAE30\uBD84\uC774 \uC88B\uC544\uC84C\uB294\uC9C0
       \uC624\uBB3C \uD48D\uC120\uC744 \uCCA0\uD68C\uD588\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: af625ad334a47e7499904515e26864c9, type: 3}
+    - {fileID: 21300000, guid: af625ad334a47e7499904515e26864c9, type: 3}
 --- !u!1 &1450252945
 GameObject:
   m_ObjectHideFlags: 0
@@ -13717,7 +13926,11 @@ MonoBehaviour:
       \uD55C \uBC88 \uB358\uC9C0\uC9C0 \uC54A\uC558\uB2E4."
     - "\uC8C4\uCC45\uAC10\uC774 \uB4F1\uC744 \uCC0C\uB978\uB2E4."
     - "\uCD95\uCD95\uD55C \uC5EC\uB984\uC774\uC5C8\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
 --- !u!1 &1571865704
 GameObject:
   m_ObjectHideFlags: 0
@@ -13773,7 +13986,9 @@ MonoBehaviour:
       \uC81C\uC791\uD558\uB77C \uD558\uC168\uB2E4. \uB0A0\uB798 \uD558\uB77C\uC6B0."
     - "(\uC624\uBB3C\uD48D\uC120\uC774\uB77C\uB2C8.. \uBB34\uC791\uC815 \uC624\uBB3C\uC744
       \uB2F4\uC73C\uBA74 \uC870\uAD6D\uC5D0\uC11C\uB3C4 \uACE4\uB780\uD574\uC9C8\uAC70\uC57C.)"
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 0}
 --- !u!1 &1574069492
 GameObject:
   m_ObjectHideFlags: 0
@@ -13964,7 +14179,12 @@ MonoBehaviour:
       \uCD1D\uC0B4\uB2F9\uD55C\uB2E4. "
     - "\uADF8 \uC989\uC2DC \uD575\uBBF8\uC0AC\uC77C\uC774 \uBC1C\uC0AC\uB418\uC5B4
       \uC6B0\uB9AC\uB098\uB77C\uB85C \uB0A0\uC544\uAC04\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
+    - {fileID: 21300000, guid: 708a20ccddf45f844aa413097455fdee, type: 3}
+    - {fileID: 21300000, guid: 708a20ccddf45f844aa413097455fdee, type: 3}
 --- !u!1 &1580014289
 GameObject:
   m_ObjectHideFlags: 0
@@ -14020,7 +14240,10 @@ MonoBehaviour:
     - "\uC218\uB839\uB3D9\uC9C0: \uB059\u2026\r\n"
     - "\uB098: (\uC218\uB839\uB3C4 \uB9CC\uB9CC\uCC2E\uAC8C \uB354\uC6CC \uBCF4\uC774\uB294\uAD70.
       \uD558\uAE34 \uB098\uBCF4\uB2E4 \uB369\uCE58\uB3C4 \uC788\uC73C\uB2C8\uAE4C.)"
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
 --- !u!1 &1585893889
 GameObject:
   m_ObjectHideFlags: 0
@@ -14129,7 +14352,16 @@ MonoBehaviour:
     - "\uC218\uB839 \uB3D9\uC9C0\uB294 \uC5B4\uCA54 \uC218 \uC5C6\uB2E4\uB294 \uB4EF
       \uCDE8\uC870\uB97C \uBA85\uB839\uD588\uB2E4."
     - "\uC5EC\uB984\uC774\uC5C8\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 0}
 --- !u!1 &1632082199
 GameObject:
   m_ObjectHideFlags: 0
@@ -14186,7 +14418,11 @@ MonoBehaviour:
       \uBC14\uB77C\uBCF4\uB2E4, "
     - "\uD2F0\uB77C\uBBF8\uC218 \uCF00\uC78C\uC744 \uB4E4\uACE0 \uBB38 \uB4A4\uB85C
       \uBAA8\uC2B5\uC744 \uAC10\uCD94\uC5C8\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
+    - {fileID: 0}
 --- !u!1 &1634796342
 GameObject:
   m_ObjectHideFlags: 0
@@ -14236,9 +14472,18 @@ MonoBehaviour:
     sentences:
     - "\uB098: \uC218\uB839\uB3D9\uC9C0, \uC7A0\uC2DC\u2026 "
     - "(\uADC0\uB3C4\uB9AC\uB97C \uC50C\uC6CC\uC900\uB2E4.)"
+    - "\uC218\uB839\uB3D9\uC9C0: \uB3D9\uBB34..."
     - "\uC8FC\uC778\uACF5: \uB0A0\uC774 \uCC39\uB124\uB2E4. "
+    - "\uCC28\uAC00\uC6B4 \uB0A0\uC528\uC5D0 \uB0B4 \uADC0\uAC00 \uAE08\uC138 \uBE68\uAC1C\uC84C\uB2E4.
+      \uC218\uB839\uB3D9\uC9C0\uC758 \uBCFC\uB3C4\u2026"
     - "\uACA8\uC6B8\uC774\uC5C8\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
 --- !u!1 &1669807406
 GameObject:
   m_ObjectHideFlags: 0
@@ -14641,7 +14886,9 @@ MonoBehaviour:
       \uC804\uB2EC\uD558\uC790"
     - "\uC218\uB839 \uB3D9\uC9C0: \uD760.. \uC774\uAC74 \uB0B4\uAC00 \uC88B\uC544\uD558\uB294
       \uCF00\uD0A4\uAD70. \uC798\uBA39\uACA0\uB124. \uC774\uB9CC \uB4E4\uC5B4\uAC00\uBCF4\uB77C\uC6B0."
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 21300000, guid: af625ad334a47e7499904515e26864c9, type: 3}
 --- !u!1 &1682400972
 GameObject:
   m_ObjectHideFlags: 0
@@ -14744,7 +14991,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: -1000
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -14853,7 +15100,12 @@ MonoBehaviour:
     - "\uC218\uB839\uB3D9\uC9C0: \uC774\uAC8C \uBB34\uC2A8 \uC77C\uC774\uC624! [\uC774\uB984]\uB3D9\uBB34!
       \uC790\uB124\uB294 \uBB34\uC5BC\uD558\uB098!! "
     - "\uC774\uB7F0\u2026"
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
 --- !u!1 &1689259142
 GameObject:
   m_ObjectHideFlags: 0
@@ -14939,8 +15191,9 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - "\uC815\uBD80\uD55C\uD14C \uC554\uC0B4"
-    sprite: []
+    - "\uC815\uBD80\uC758 \uC2E0\uB8B0\uB97C \uC313\uC9C0 \uBABB\uD574 \uC554\uC0B4\uB2F9\uD588\uB2E4."
+    sprite:
+    - {fileID: 21300000, guid: 708a20ccddf45f844aa413097455fdee, type: 3}
 --- !u!1 &1740277163
 GameObject:
   m_ObjectHideFlags: 0
@@ -15338,7 +15591,14 @@ MonoBehaviour:
       \uD758\uB7EC\uAC00\uBC84\uB838\uB2E4. ."
     - "\uC218\uB839 \uB3D9\uC9C0\uC758 \uB9C8\uC74C\uC744 \uB3C4\uD1B5 \uC54C \uC218
       \uC5C6\uB2E4"
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
 --- !u!1 &1792234525
 GameObject:
   m_ObjectHideFlags: 0
@@ -15457,13 +15717,18 @@ MonoBehaviour:
     - "\uC815\uC2E0\uCC28\uB9AC\uC790. \uC0C1\uB300\uB294 \uC6B0\uB9AC\uB098\uB77C\uC758
       \uC6D0\uC218 \uC218\uB839\uB3D9\uC9C0\uB2E4. "
     - "\uD55C\uC2DC\uB77C\uB3C4 \uAE09\uD55C \uC0C1\uD669\uC774\uC57C."
-    - "\uD55C\uC2DC\uB77C\uB3C4 \uAE09\uD55C \uC0C1\uD669\uC774\uC57C."
     - "\uAE09\uD788 \uC7A5\uBE44\uB97C \uCC59\uACA8 \uC5B4\uB450\uC6B4 \uBC24 \uC218\uB839\uB3D9\uC9C0\uC758
       \uBC29\uC73C\uB85C \uAE09\uC2B5\uD55C\uB2E4."
     - "\uD558\uC9C0\uB9CC \uC218\uB839\uB3D9\uC9C0\uC758 \uACBD\uBE44\uB294 \uC0BC\uC5C4\uD588\uACE0,
       \uB098\uB294 \uC801\uBC1C\uB418\uC5C8\uB2E4."
-    - "\uB098\uB294 \uADF8\uC790\uB9AC\uC5D0\uC11C \uBC14\uB85C \uCC98\uD615\uB2F9\uD588\uB2E4."
-    sprite: []
+    - "\uB2E4\uD589\uD788 \uB2E4\uAE09\uD55C \uBCC0\uBA85\uC73C\uB85C \uB098\uB294
+      \uBE60\uC838\uB098\uC654\uB2E4."
+    sprite:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: a9b792f641c9c6c49baaf9a5a0df1ef0, type: 3}
+    - {fileID: 21300000, guid: a9b792f641c9c6c49baaf9a5a0df1ef0, type: 3}
 --- !u!1 &1818355976
 GameObject:
   m_ObjectHideFlags: 0
@@ -15725,7 +15990,10 @@ MonoBehaviour:
     - "\uC218\uB839\uB3D9\uC9C0: [\uC774\uB984]\uB3D9\uBB34\u2026 \uB098, \uB098\uB97C
       \uC704\uD574\u2026?"
     - "\uB098: \uC5B4\uC11C \uBAB8\uC744 \uD53C\uD558\uC2ED\uC2DC\uC624!!"
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
+    - {fileID: 21300000, guid: e22d40aacb3bf8048af5428ab1b99293, type: 3}
 --- !u!1 &1848971357
 GameObject:
   m_ObjectHideFlags: 0
@@ -15783,7 +16051,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: "1. \uC804\uD654 \uB0B4\uC6A9\uC774 \uAD81\uAE08\uD558\uB2C8 \uB354 \uB4E4\uC5B4\uBCF4\uC790. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 35fa1f8781a523d42a23775030ef9a2d, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -16648,7 +16916,12 @@ MonoBehaviour:
       \uCF00\uC78C\uC744 \uBC30\uB2EC\uD558\uB294 \uC77C\uB3C4 \uC775\uC219\uD574\uC84C\uB2E4.)"
     - "\uB530\uB974\uB989~ \uB530\uB974\uB989~"
     - "\uB9C8\uCE68 \uC218\uB839\uC5D0\uAC8C \uC804\uD654\uAC00 \uC654\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
 --- !u!1 &1920041687
 GameObject:
   m_ObjectHideFlags: 0
@@ -16886,7 +17159,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: -500
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -16999,7 +17272,15 @@ MonoBehaviour:
     - "\uC218\uB839\uB3D9\uC9C0: \uB3D9\uBB34! \uAD1C\uCC2E\uC740\uAC74\uAC00!"
     - "\uC8FC\uC778\uACF5: \uC218\uB839\uB3D9\uC9C0\u2026 "
     - "\uADF8\uB0A0 \uBC24 \uB098\uB294 \uC660\uC9C0 \uC7A0\uC5D0 \uB4E4\uC9C0 \uBABB\uD588\uB2E4."
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 0}
 --- !u!1 &1950701246
 GameObject:
   m_ObjectHideFlags: 0
@@ -17335,8 +17616,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "3. \uAC11\uC790\uAE30 \uBC30\uAC00 \uC544\uD504\uB2E4\uACE0 \uC2DC\uC120\uC744
-    \uB04C\uC5B4 \uD68C\uC758\uB97C \uC911\uB2E8\uD55C\uB2E4."
+  m_text: "3. \uC544\uBB34 \uB9D0 \uC5C6\uC774 \uD68C\uC758\uC5D0 \uCC38\uC5EC\uD55C\uB2E4."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 35fa1f8781a523d42a23775030ef9a2d, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -18169,19 +18449,30 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - "\uC218\uB839 \uB3D9\uC9C0\uB294 \uC804\uD654\uB97C \uBC1B\uC558\uB2E4.\r"
+    - "\uC218\uB839 \uB3D9\uC9C0\uB294 \uC544\uBB34 \uAC70\uB9AC\uB08C \uC5C6\uC774
+      \uB0B4 \uC55E\uC5D0\uC11C \uC804\uD654\uB97C \uBC1B\uC558\uB2E4.\r\n\r"
     - "\uC218\uD654\uAE30 \uB108\uBA38: \uC801\uAD6D\uC5D0 \uB358\uC9C8 \uD575\uC740
-      \uC900\uBE44\uAC00 \uB418\uC5C8\uC2B5\uB124\uB2E4.\r\n"
-    - "(!! \uD575\uC774\uB77C\uB2C8... \uD070\uC77C\uC774\uB2E4.)\r"
-    - "\uC218\uB839\uB3D9\uC9C0\uC758 \uB208\uCE58\uB97C \uC0B4\uD53C\uBA70 \uC544\uBB34\uAC83\uB3C4
+      \uC900\uBE44\uAC00 \uB418\uC5C8\uC2B5\uB124\uB2E4.\r"
+    - "\uC218\uB839 \uB3D9\uC9C0\uB294 \uC11C\uB458\uB7EC \uC804\uD654\uB97C \uB04A\uC5C8\uC73C\uB098
+      \uC774\uBBF8 \uB2A6\uC740 \uB4A4\uC600\uB2E4."
+    - "\uC218\uB839 \uB3D9\uC9C0\uC758 \uC2DC\uC120\uC5D0, \uC544\uBB34\uAC83\uB3C4
       \uB4E3\uC9C0 \uBABB\uD55C \uCC99\uD588\uB2E4.\r\n"
-    - "\uBC29\uC73C\uB85C \uB3CC\uC544\uC640 \uC774 \uC18C\uC2DD\uC744 \uBCF8\uBD80\uC5D0
-      \uC54C\uB838\uB2E4.\r\n\r"
+    - "\uB098\uB294 \uBC29\uC73C\uB85C \uB3CC\uC544\uC640 \uC774 \uC18C\uC2DD\uC744
+      \uBCF8\uBD80\uC5D0 \uC54C\uB838\uB2E4.\r\n"
     - "\uBCF8\uBD80: \uBAA9\uD45C\uB97C \uBCC0\uACBD\uD55C\uB2E4. \uC218\uB839 \uB3D9\uC9C0\uB97C
-      \uC554\uC0B4\uD558\uB77C.\r\n"
-    - "\uB098: \u2026\uC54C\uACA0\uC2B5\uB124\uB2E4.\r\n"
-    - "(\uC660\uC9C0 \uC501\uC2AC\uD55C \uAE30\uBD84\uC774\uAD70...)"
-    sprite: []
+      \uC554\uC0B4\uD558\uB77C.\r"
+    - "\uC8FC\uC778\uACF5: \u2026\uC54C\uACA0\uC2B5\uB124\uB2E4.\r"
+    - "\uC8FC\uC778\uACF5: (\uB2F9\uC5F0\uD55C \uC77C\uC774\uB2E4. \uADF8\uB7F0\uB370
+      \uC774 \uAE30\uBD84\uC740 \uBB58\uAE4C?)"
+    sprite:
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: b38d03a06aac36c498634c140d9a21af, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
 --- !u!1 &2105325068
 GameObject:
   m_ObjectHideFlags: 0
@@ -18233,7 +18524,10 @@ MonoBehaviour:
     - "\uC218\uB839\uB3D9\uC9C0: \uACE0\uB9D9\uB124. (\uC7A0\uAE50\u2026 \uC801\uAD6D
       \uACE8\uD504\uD074\uB7FD\u2026?)"
     - "\uC774\uB7F0, \uC6B0\uB9AC\uB098\uB77C\uC5D0\uC11C \uC0B0 \uBAA9\uB3C4\uB9AC\uC600\uB2E4\uB2C8...\uC758\uC2EC\uBC1B\uACA0\uB294\uAC78"
-    sprite: []
+    sprite:
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: 2dcdde0795efa0e449e2ed31d91c4a9c, type: 3}
 --- !u!1 &2112123738
 GameObject:
   m_ObjectHideFlags: 0
@@ -18427,7 +18721,13 @@ MonoBehaviour:
       \uC11C\uC788\uB2E4.\r\n\r"
     - "\uB098: \uC218\uB839\uB3D9\uC9C0, \uC65C \uADF8\uB7EC\uC2ED\uB2C8\uAE4C?\r\n"
     - "\uC218\uB839\uB3D9\uC9C0: \uB0B4\uB798, \uC545\uBABD\uC744 \uAFE8\uB124"
-    sprite: []
+    sprite:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
+    - {fileID: 21300000, guid: c8b4801f865f77e4890d01929c787760, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

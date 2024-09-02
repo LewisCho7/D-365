@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
         ChatBox.SetActive(true);
         ChatText.SetText(dialogue);
     }
-
+    
     public void closeDialog()
     {
         
