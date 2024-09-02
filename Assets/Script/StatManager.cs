@@ -53,11 +53,11 @@ public class StatManager : MonoBehaviour
     {
         if (stat < 10)
             return 1;
-        else if (stat < 30)
+        else if(stat < 30)
             return 2;
-        else if (stat < 60)
+        else if(stat < 60)
             return 3;
-        else if (stat < 100)
+        else if(stat < 100)
             return 4;
         else
             return 5;
