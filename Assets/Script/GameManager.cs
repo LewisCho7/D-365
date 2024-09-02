@@ -35,8 +35,8 @@ public class GameManager : MonoBehaviour
 
     public void closeDialog()
     {
-        isDialogue = false;
         ChatBox.SetActive(false);
+        StartCoroutine(IE_CloseDialogue());
     }
     private void Update()
     {
@@ -44,5 +44,14 @@ public class GameManager : MonoBehaviour
         {
             story.GetComponent<DialogueTrigger>().TriggerDialogue();
         }
+
+        
+    }
+
+    IEnumerator IE_CloseDialogue()
+    {
+        yield return new WaitForSeconds(0.01f);
+        isDialogue = false;
+
     }
 }
