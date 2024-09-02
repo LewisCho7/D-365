@@ -47,6 +47,21 @@ public class StoryManager : MonoBehaviour
         {
             DisplayNextSentence();
         }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (GameManager.instance.isDialogue)
+            {
+                DisplayNextSentence();
+            }
+        }
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (!GameManager.instance.isDialogue)
+            {
+                story.GetComponent<DialogueTrigger>().TriggerDialogue();
+            }
+        }
     }
 
 }
