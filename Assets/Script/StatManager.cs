@@ -14,7 +14,7 @@ public class StatManager : MonoBehaviour
     public TextMeshProUGUI trustLevelText;
 
     private int affection = 0;
-    private int trust = 50;
+    private int trust = 0;
 
     void Start()
     {
