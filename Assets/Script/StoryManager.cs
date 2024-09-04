@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class StoryManager : MonoBehaviour
 {
@@ -12,7 +14,8 @@ public class StoryManager : MonoBehaviour
     private GameObject buttonDay;
     public List<GameObject> buttonDayList;
     public GameObject[] background;
-    
+
+    bool realending = false;
     int index;
     int buttonIndex;
     bool buttonPressed;
@@ -35,7 +38,10 @@ public class StoryManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-
+        if (realending)
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
         ChangeBackground();
         sentences.Clear();
         sprites.Clear();
@@ -188,7 +194,8 @@ public class StoryManager : MonoBehaviour
     private void EndDialogue()
     {
         GameManager.instance.closeDialog();
-        if(index == 7 || index == 11 || index == 17)
+
+        if (index == 7 || index == 11 || index == 17)
         {
             checkStat();
             if (GameManager.instance.gameOver) {
@@ -283,12 +290,14 @@ public class StoryManager : MonoBehaviour
             if (GameManager.instance.isDialogue)
             {
                 DisplayNextSentence();
+                SoundManager.instance.ClickSound();
 
             }
 
             if (!GameManager.instance.isDialogue)
             {
                 currentday.GetComponent<DialogueTrigger>().TriggerDialogue();
+                SoundManager.instance.ClickSound();
             }
         }
 
@@ -313,9 +322,11 @@ public class StoryManager : MonoBehaviour
 
     private void showEnding()
     {
+        
         for (int i = 0; i < endings.Length; i++) {
             if (i == GameManager.instance.gameOverNum) {
                 endings[i].GetComponent<DialogueTrigger>().TriggerDialogue();
+                realending = true;
                 Debug.Log(i);
                 return;
             }

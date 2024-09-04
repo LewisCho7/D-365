@@ -12,5 +12,6 @@ public class InputScene : MonoBehaviour
     {
         Name.Instance.playerName = field.text;
         SceneManager.LoadScene("SampleScene");
+        SoundManager.instance.PlayBGM(0);
     }
 }
